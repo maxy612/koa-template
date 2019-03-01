@@ -1,0 +1,23 @@
+{
+  "name": "koa-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "^0.3.0",
+    "ejs": "^2.6.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.8",
+    "koa-redis": "^3.1.3",
+    "koa-router": "^7.4.0",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js"
+  }
+}
