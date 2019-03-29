@@ -15,9 +15,11 @@
     "koa-views": "^6.1.5"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "nodemon": "^1.18.10"
   },
   "scripts": {
-    "start": "./node_modules/.bin/nodemon index.js"
+    "start": "./node_modules/.bin/nodemon index.js",
+    "test": "mocha ./test/**/*.js"
   }
 }
