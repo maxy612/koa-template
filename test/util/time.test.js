@@ -3,7 +3,7 @@ const time = require('../../util/time');
 
 describe('should get right date', () => {
   it('测试 time.format', () => {
-    expect(time.format(1553854646346)).to.be.equal('2019-03-29 18:17:26');
+    expect(time.format(1553854646346)).to.be.equal('2019-03-29 10:17:26');
     expect(time.format(1553854646346)).to.be.not.equal('2019-03-29 18:17:22');
   })
 
